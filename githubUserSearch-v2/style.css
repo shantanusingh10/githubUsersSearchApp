@@ -1,0 +1,54 @@
+body{
+	background: #004FF9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.media-object{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+.List{
+	margin-top: 30px;
+}
+#container{
+	margin: 0 auto;
+	width: 500px;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 5px;
+	background-color: steelblue;	
+}
+input{
+	margin-top: 30px;
+	margin-left: 130px;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+.sub-container{
+	margin-top: 50px;
+	padding: 5px;
+}
+#title{
+	font-size: 25px;
+	display: block;
+	text-align: center;
+}
+#username{
+	margin-left: 10px;
+}
+#titleimg{
+	margin-left: 200px;
+}
+@media only screen and (max-width: 500px) {
+    #container {
+        width: 300px;
+    }
+    #titleimg{
+    	margin-left: 100px;
+    }
+    input{
+    	margin-left: 30px;
+    }
+}
